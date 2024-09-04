@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CsvKUI6CFyZIPfK8dYPY1fN80sjw9S/NUG3bZFnO6kA=",
+  "Source": "GestionDeStock.Api",
+  "BasePath": "_content/GestionDeStock.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

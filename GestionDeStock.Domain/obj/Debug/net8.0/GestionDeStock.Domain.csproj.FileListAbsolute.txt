@@ -1,0 +1,11 @@
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\bin\Debug\net8.0\GestionDeStock.Domain.deps.json
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\bin\Debug\net8.0\GestionDeStock.Domain.dll
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\bin\Debug\net8.0\GestionDeStock.Domain.pdb
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\obj\Debug\net8.0\GestionDeStock.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\obj\Debug\net8.0\GestionDeStock.Domain.AssemblyInfoInputs.cache
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\obj\Debug\net8.0\GestionDeStock.Domain.AssemblyInfo.cs
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\obj\Debug\net8.0\GestionDeStock.Domain.csproj.CoreCompileInputs.cache
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\obj\Debug\net8.0\GestionDeStock.Domain.dll
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\obj\Debug\net8.0\refint\GestionDeStock.Domain.dll
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\obj\Debug\net8.0\GestionDeStock.Domain.pdb
+C:\Users\human\source\repos\GestionDeStock\GestionDeStock.Domain\obj\Debug\net8.0\ref\GestionDeStock.Domain.dll
