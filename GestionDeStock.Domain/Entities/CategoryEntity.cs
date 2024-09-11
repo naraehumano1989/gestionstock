@@ -1,10 +1,8 @@
 ﻿namespace GestionDeStock.Domain.Entities
 {
-    public enum CategoryEntity
+    public class CategoryEntity
     {
-        VERANO,
-        INVIERNO,
-        OTONO,
-        PRIMAVERA
+       public int Id { get; set; }
+       public string? Name { get; set; }
     }
 }

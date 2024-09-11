@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GestionDeStock.Application\GestionDeStock.Application.csproj" />
     <ProjectReference Include="..\GestionDeStock.Domain\GestionDeStock.Domain.csproj" />
   </ItemGroup>
 
