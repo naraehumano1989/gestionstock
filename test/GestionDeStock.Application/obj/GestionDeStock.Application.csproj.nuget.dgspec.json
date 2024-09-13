@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj": {}
+    "C:\\Users\\human\\source\\repos\\GestionDeStock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj": {}
   },
   "projects": {
-    "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj": {
+    "C:\\Users\\human\\source\\repos\\GestionDeStock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
+        "projectUniqueName": "C:\\Users\\human\\source\\repos\\GestionDeStock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
         "projectName": "GestionDeStock.Application",
-        "projectPath": "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
+        "projectPath": "C:\\Users\\human\\source\\repos\\GestionDeStock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
         "packagesPath": "C:\\Users\\human\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\obj\\",
+        "outputPath": "C:\\Users\\human\\source\\repos\\GestionDeStock\\test\\GestionDeStock.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

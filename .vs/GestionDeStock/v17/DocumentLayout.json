@@ -3,6 +3,45 @@
   "WorkspaceRootPath": "E:\\.NET\\Challenge\\gestionstock\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|solutionrelative:gestiondestock.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|solutionrelative:gestiondestock.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D8DB7C-A5CD-40C2-9697-9F3B49D08EAA}|GestionDeStock.Application\\GestionDeStock.Application.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.application\\common\\istockmanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D8DB7C-A5CD-40C2-9697-9F3B49D08EAA}|GestionDeStock.Application\\GestionDeStock.Application.csproj|solutionrelative:gestiondestock.application\\common\\istockmanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|solutionrelative:gestiondestock.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|solutionrelative:gestiondestock.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|solutionrelative:gestiondestock.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.api\\middleware\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}|GestionDeStock.Api\\GestionDeStock.Api.csproj|solutionrelative:gestiondestock.api\\middleware\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE7E134-9DAB-4624-AE17-9DFA59CF30D5}|GestionDeStock.Infrastructure\\GestionDeStock.Infrastructure.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.infrastructure\\services\\stockmanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE7E134-9DAB-4624-AE17-9DFA59CF30D5}|GestionDeStock.Infrastructure\\GestionDeStock.Infrastructure.csproj|solutionrelative:gestiondestock.infrastructure\\services\\stockmanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D8DB7C-A5CD-40C2-9697-9F3B49D08EAA}|GestionDeStock.Application\\GestionDeStock.Application.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.application\\command\\delete\\deletestockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D8DB7C-A5CD-40C2-9697-9F3B49D08EAA}|GestionDeStock.Application\\GestionDeStock.Application.csproj|solutionrelative:gestiondestock.application\\command\\delete\\deletestockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{624524F7-E3F6-4941-B3B1-AA4463C7718E}|GestionDeStock.Domain\\GestionDeStock.Domain.csproj|e:\\.net\\challenge\\gestionstock\\gestiondestock.domain\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{624524F7-E3F6-4941-B3B1-AA4463C7718E}|GestionDeStock.Domain\\GestionDeStock.Domain.csproj|solutionrelative:gestiondestock.domain\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +65,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GestionDeStock.Api\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GestionDeStock.Api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T01:26:22.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionDeStock.Api\\appsettings.json",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\appsettings.json",
+              "RelativeToolTip": "GestionDeStock.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T01:19:38.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GestionDeStock.Api\\appsettings.Development.json",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\appsettings.Development.json",
+              "RelativeToolTip": "GestionDeStock.Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T01:19:34.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GestionDeStock.Api\\Program.cs",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\Program.cs",
+              "RelativeToolTip": "GestionDeStock.Api\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T01:19:04.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\Middleware\\Authentication.cs",
+              "RelativeDocumentMoniker": "GestionDeStock.Api\\Middleware\\Authentication.cs",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\Middleware\\Authentication.cs",
+              "RelativeToolTip": "GestionDeStock.Api\\Middleware\\Authentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T01:18:20.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StockManagementRepository.cs",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Infrastructure\\Services\\StockManagementRepository.cs",
+              "RelativeDocumentMoniker": "GestionDeStock.Infrastructure\\Services\\StockManagementRepository.cs",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Infrastructure\\Services\\StockManagementRepository.cs",
+              "RelativeToolTip": "GestionDeStock.Infrastructure\\Services\\StockManagementRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T01:16:56.462Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "GestionDeStock.Api\\Controllers\\StockController.cs",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Api\\Controllers\\StockController.cs",
+              "RelativeToolTip": "GestionDeStock.Api\\Controllers\\StockController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T01:14:35.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IStockManagementRepository.cs",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\Common\\IStockManagementRepository.cs",
+              "RelativeDocumentMoniker": "GestionDeStock.Application\\Common\\IStockManagementRepository.cs",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\Common\\IStockManagementRepository.cs",
+              "RelativeToolTip": "GestionDeStock.Application\\Common\\IStockManagementRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T01:28:35.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAEYJAAAAAAAAAAAgwGAJAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-13T01:16:53.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteStockCommand.cs",
+              "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\Command\\Delete\\DeleteStockCommand.cs",
+              "RelativeDocumentMoniker": "GestionDeStock.Application\\Command\\Delete\\DeleteStockCommand.cs",
+              "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\Command\\Delete\\DeleteStockCommand.cs",
+              "RelativeToolTip": "GestionDeStock.Application\\Command\\Delete\\DeleteStockCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T01:15:15.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CategoryEntity.cs",
               "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Domain\\Entities\\CategoryEntity.cs",
               "RelativeDocumentMoniker": "GestionDeStock.Domain\\Entities\\CategoryEntity.cs",
@@ -43,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "StockResponse.cs",
               "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Domain\\Dtos\\Response\\StockResponse.cs",
               "RelativeDocumentMoniker": "GestionDeStock.Domain\\Dtos\\Response\\StockResponse.cs",
@@ -56,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "StockEntity.cs",
               "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Domain\\Entities\\StockEntity.cs",
               "RelativeDocumentMoniker": "GestionDeStock.Domain\\Entities\\StockEntity.cs",
@@ -68,22 +243,14 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "CreateStockCommand.cs",
               "DocumentMoniker": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\Command\\Create\\CreateStockCommand.cs",
               "RelativeDocumentMoniker": "GestionDeStock.Application\\Command\\Create\\CreateStockCommand.cs",
               "ToolTip": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\Command\\Create\\CreateStockCommand.cs",
               "RelativeToolTip": "GestionDeStock.Application\\Command\\Create\\CreateStockCommand.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T02:39:45.927Z",
               "EditorCaption": ""

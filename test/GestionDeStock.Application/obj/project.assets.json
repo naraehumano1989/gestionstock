@@ -3445,9 +3445,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
-      "projectName": "GestionDeStock.Application",
-      "projectPath": "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
+      "projectUniqueName": "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\GestionDeStock.ApplicationTests.csproj",
+      "projectName": "GestionDeStock.ApplicationTests",
+      "projectPath": "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\GestionDeStock.ApplicationTests.csproj",
       "packagesPath": "C:\\Users\\human\\.nuget\\packages\\",
       "outputPath": "E:\\.NET\\Challenge\\gestionstock\\test\\GestionDeStock.Application\\obj\\",
       "projectStyle": "PackageReference",

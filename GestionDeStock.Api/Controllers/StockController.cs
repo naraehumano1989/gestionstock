@@ -1,66 +1,64 @@
 using Microsoft.AspNetCore.Mvc;
-using GestionDeStock.Domain.Dtos.Request;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using GestionDeStock.Application.Command.Create;
-using GestionDeStock.Application.Command.Delete;
+using GestionDeStock.Application.Queries;
 using GestionDeStock.Application.Command.Update;
+using GestionDeStock.Application.Command.Delete;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GestionDeStock.Api.Controllers
 {
-
-        [ApiController]
-        [Route("[controller]")]
-        [Authorize]
-        public class StockController : ControllerBase
+    [ApiController]
+    [Route("[controller]")]
+    [Authorize]
+    public class StockController : ControllerBase
+    {
+        private readonly IMediator _mediator;
+        public StockController(IMediator mediator)
         {
-            private readonly IMediator _mediator;
-            public StockController(IMediator mediator)
-            {
-                _mediator = mediator;
-            }
+            _mediator = mediator;
+        }
 
-            [HttpPost("Register")]
-            public async Task<IActionResult> Register([FromBody] CreateStockCommand registerStockCommand)
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register([FromBody] CreateStockCommand registerStockCommand)
+        {
+            try
             {
-                try
-                {
-                    var stockId = await _mediator.Send(registerStockCommand);
+                var stockId = await _mediator.Send(registerStockCommand);
 
-                    return Ok($"Stock registrado: {stockId}");
-                }
-                catch (Exception ex)
-                {
-                    return BadRequest(ex.Message);
-                }
+                return Ok($"Stock registrado: {stockId}");
             }
-
-            [HttpGet]
-            [Route("all")]
-            /// <summary>
-            /// 
-            /// </summary>
-            /// <remarks>
-            /// 
-            /// </remarks>
-            /// <returns></returns>
-            public async Task<IActionResult> GetAllStocks()
+            catch (Exception ex)
             {
-                return Ok(await _mediator.Send(new GetAll()));
+                return BadRequest(ex.Message);
             }
+        }
 
-            [HttpPut]
-            public async Task<IActionResult> UpdateStock([FromBody] UpdateStockCommand request)
-            {
-                return Ok(await _mediator.Send(request));
-            }
+        [HttpGet]
+        [Route("all")]
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <returns></returns>
+        public async Task<IActionResult> GetAllStocks()
+        {
+           return Ok(await _mediator.Send(new GetAll()));
+        }
 
-            [HttpDelete]
-            public async Task<IActionResult> DeleteStock(int stockId)
-            {
-                var stockToDelete = new DeleteStockCommand { StockId = stockId };
-                return Ok(await _mediator.Send(stockToDelete));
-            }
+        [HttpPut]
+        public async Task<IActionResult> UpdateStock([FromBody] UpdateStockCommand request)
+        {
+           return Ok(await _mediator.Send(request));
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteStock(int stockId)
+        {
+           var stockToDelete = new DeleteStockCommand { StockId = stockId };
+            return Ok(await _mediator.Send(stockToDelete));
         }
     }
 }
