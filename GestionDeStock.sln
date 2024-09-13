@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDeStock.Application", "GestionDeStock.Application\GestionDeStock.Application.csproj", "{B2D8DB7C-A5CD-40C2-9697-9F3B49D08EAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionDeStock.Application", "GestionDeStock.Application\GestionDeStock.Application.csproj", "{B2D8DB7C-A5CD-40C2-9697-9F3B49D08EAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDeStock.Domain", "GestionDeStock.Domain\GestionDeStock.Domain.csproj", "{624524F7-E3F6-4941-B3B1-AA4463C7718E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionDeStock.Domain", "GestionDeStock.Domain\GestionDeStock.Domain.csproj", "{624524F7-E3F6-4941-B3B1-AA4463C7718E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDeStock.Infrastructure", "GestionDeStock.Infrastructure\GestionDeStock.Infrastructure.csproj", "{ADE7E134-9DAB-4624-AE17-9DFA59CF30D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionDeStock.Infrastructure", "GestionDeStock.Infrastructure\GestionDeStock.Infrastructure.csproj", "{ADE7E134-9DAB-4624-AE17-9DFA59CF30D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDeStock.Api", "GestionDeStock.Api\GestionDeStock.Api.csproj", "{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionDeStock.Api", "GestionDeStock.Api\GestionDeStock.Api.csproj", "{310D36F5-FAE6-4A51-96DE-D16814EE5B9A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{373F8680-0A0C-4934-AB5A-E3044D2FC2B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7EAA00BC-C869-441F-B2D2-1D4CD0A4D760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDeStock.Application", "test\GestionDeStock.Application\GestionDeStock.Application.csproj", "{81A84BF7-ECF4-47D5-A9FD-ACCF522440B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionDeStock.ApplicationTests", "test\GestionDeStock.Application\GestionDeStock.ApplicationTests.csproj", "{81A84BF7-ECF4-47D5-A9FD-ACCF522440B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,37 +1,64 @@
 using Microsoft.AspNetCore.Mvc;
-using GestionDeStock.Domain.Dtos.Request;
+using MediatR;
+using GestionDeStock.Application.Command.Create;
+using GestionDeStock.Application.Queries;
+using GestionDeStock.Application.Command.Update;
+using GestionDeStock.Application.Command.Delete;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GestionDeStock.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class StockController : ControllerBase
     {
-        [HttpPost]
-        public IActionResult CreateStock([FromBody] CreateStockRequest request)
+        private readonly IMediator _mediator;
+        public StockController(IMediator mediator)
         {
-            var asd = int.Parse("10");
-            return request is null ? throw new ArgumentNullException(nameof(request)) : (IActionResult)Ok();
+            _mediator = mediator;
+        }
+
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register([FromBody] CreateStockCommand registerStockCommand)
+        {
+            try
+            {
+                var stockId = await _mediator.Send(registerStockCommand);
+
+                return Ok($"Stock registrado: {stockId}");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet]
         [Route("all")]
-        public IActionResult GetAllStocks()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <returns></returns>
+        public async Task<IActionResult> GetAllStocks()
         {
-            return Ok();
+           return Ok(await _mediator.Send(new GetAll()));
         }
 
         [HttpPut]
-
-        public IActionResult UpdateStock([FromBody] CreateStockRequest request)
+        public async Task<IActionResult> UpdateStock([FromBody] UpdateStockCommand request)
         {
-            return request is null ? throw new ArgumentNullException(nameof(request)) : (IActionResult)Ok();
+           return Ok(await _mediator.Send(request));
         }
 
         [HttpDelete]
-        public IActionResult DeleteStock([FromBody] CreateStockRequest request)
+        public async Task<IActionResult> DeleteStock(int stockId)
         {
-            return request is null ? throw new ArgumentNullException(nameof(request)) : (IActionResult)Ok();
+           var stockToDelete = new DeleteStockCommand { StockId = stockId };
+            return Ok(await _mediator.Send(stockToDelete));
         }
     }
 }

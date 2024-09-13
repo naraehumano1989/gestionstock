@@ -1003,6 +1003,21 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "GestionDeStock.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentValidation": "11.9.2",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/GestionDeStock.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestionDeStock.Domain.dll": {}
+        }
       }
     }
   },
@@ -2595,11 +2610,17 @@
         "xunit.runner.visualstudio.2.8.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "GestionDeStock.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GestionDeStock.Domain/GestionDeStock.Domain.csproj",
+      "msbuildProject": "../GestionDeStock.Domain/GestionDeStock.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "FluentValidation >= 11.9.2",
+      "GestionDeStock.Domain >= 1.0.0",
       "MediatR >= 12.4.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
@@ -2613,11 +2634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\human\\source\\repos\\GestionDeStock\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
+      "projectUniqueName": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
       "projectName": "GestionDeStock.Application",
-      "projectPath": "C:\\Users\\human\\source\\repos\\GestionDeStock\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
+      "projectPath": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\GestionDeStock.Application.csproj",
       "packagesPath": "C:\\Users\\human\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\human\\source\\repos\\GestionDeStock\\GestionDeStock.Application\\obj\\",
+      "outputPath": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2638,7 +2659,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Domain\\GestionDeStock.Domain.csproj": {
+              "projectPath": "E:\\.NET\\Challenge\\gestionstock\\GestionDeStock.Domain\\GestionDeStock.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
